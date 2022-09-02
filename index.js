@@ -15,6 +15,11 @@ app.get("/", (req,res) => {
     res.render("home")
 })
 
+// route is a url pattern, something you can type in a browser and see a page
+// controller organizes similarly named routes; groups similar routes
+// `Router` is a method express provides to us to create controllers
+
+
 app.listen(PORT, ()=>{
     console.log(`Smooth sounds of jazz on port ${PORT}`)
 })
